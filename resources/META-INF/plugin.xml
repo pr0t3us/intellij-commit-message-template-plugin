@@ -40,7 +40,7 @@
     </actions>
 
     <extensions defaultExtensionNs="com.intellij">
-        <projectConfigurable groupId="tools" displayName="Commit Message Template" id="preferences.CommitMessageTemplateConfigurable" instance="commitmessagetemplate.CommitMessageTemplateConfigurable" />
+        <projectConfigurable groupId="tools" displayName="Git Message Template" id="preferences.CommitMessageTemplateConfigurable" instance="commitmessagetemplate.CommitMessageTemplateConfigurable" />
         <projectService serviceInterface="commitmessagetemplate.CommitMessageTemplateConfig" serviceImplementation="commitmessagetemplate.CommitMessageTemplateConfig"/>
     </extensions>
 
