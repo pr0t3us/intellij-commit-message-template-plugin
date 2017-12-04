@@ -23,6 +23,14 @@ public class CommitMessageTemplateConfigurableGUI {
     private TextFieldWithBrowseButton templateFilePath;
     private JTextField commentChar;
     private JLabel commentCharLabel;
+    private JRadioButton setTemplateRadioButtonPR;
+    private JTextArea commitMessageTextBoxPR;
+    private JRadioButton loadTemplateFileRadioButtonPR;
+    private TextFieldWithBrowseButton templateFilePathPR;
+    private JLabel commentCharLabelPR;
+    private JTextField commentCharPR;
+    private JLabel messagePR;
+    private JLabel messageCommit;
     private CommitMessageTemplateConfig config;
     private FileChooserDescriptor descriptor = FileChooserDescriptorFactory.createSingleFileDescriptor("txt");
 
